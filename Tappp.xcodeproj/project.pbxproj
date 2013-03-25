@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88FF25EF17010FA600FDB505 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FF25EE17010FA600FDB505 /* UIKit.framework */; };
+		88FF25F117010FA600FDB505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FF25F017010FA600FDB505 /* Foundation.framework */; };
+		88FF25F317010FA600FDB505 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FF25F217010FA600FDB505 /* CoreGraphics.framework */; };
+		88FF25F917010FA600FDB505 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88FF25F717010FA600FDB505 /* InfoPlist.strings */; };
+		88FF25FB17010FA600FDB505 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FF25FA17010FA600FDB505 /* main.m */; };
+		88FF25FF17010FA600FDB505 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FF25FE17010FA600FDB505 /* AppDelegate.m */; };
+		88FF260117010FA600FDB505 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260017010FA600FDB505 /* Default.png */; };
+		88FF260317010FA600FDB505 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260217010FA600FDB505 /* Default@2x.png */; };
+		88FF260517010FA600FDB505 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260417010FA600FDB505 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88FF25EB17010FA600FDB505 /* Tappp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tappp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FF25EE17010FA600FDB505 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88FF25F017010FA600FDB505 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88FF25F217010FA600FDB505 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88FF25F617010FA600FDB505 /* Tappp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tappp-Info.plist"; sourceTree = "<group>"; };
+		88FF25F817010FA600FDB505 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88FF25FA17010FA600FDB505 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88FF25FC17010FA600FDB505 /* Tappp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tappp-Prefix.pch"; sourceTree = "<group>"; };
+		88FF25FD17010FA600FDB505 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88FF25FE17010FA600FDB505 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88FF260017010FA600FDB505 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		88FF260217010FA600FDB505 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88FF260417010FA600FDB505 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88FF25E817010FA600FDB505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FF25EF17010FA600FDB505 /* UIKit.framework in Frameworks */,
+				88FF25F117010FA600FDB505 /* Foundation.framework in Frameworks */,
+				88FF25F317010FA600FDB505 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88FF25E217010FA600FDB505 = {
+			isa = PBXGroup;
+			children = (
+				88FF25F417010FA600FDB505 /* Tappp */,
+				88FF25ED17010FA600FDB505 /* Frameworks */,
+				88FF25EC17010FA600FDB505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88FF25EC17010FA600FDB505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88FF25EB17010FA600FDB505 /* Tappp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88FF25ED17010FA600FDB505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88FF25EE17010FA600FDB505 /* UIKit.framework */,
+				88FF25F017010FA600FDB505 /* Foundation.framework */,
+				88FF25F217010FA600FDB505 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88FF25F417010FA600FDB505 /* Tappp */ = {
+			isa = PBXGroup;
+			children = (
+				88FF25FD17010FA600FDB505 /* AppDelegate.h */,
+				88FF25FE17010FA600FDB505 /* AppDelegate.m */,
+				88FF25F517010FA600FDB505 /* Supporting Files */,
+			);
+			path = Tappp;
+			sourceTree = "<group>";
+		};
+		88FF25F517010FA600FDB505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88FF25F617010FA600FDB505 /* Tappp-Info.plist */,
+				88FF25F717010FA600FDB505 /* InfoPlist.strings */,
+				88FF25FA17010FA600FDB505 /* main.m */,
+				88FF25FC17010FA600FDB505 /* Tappp-Prefix.pch */,
+				88FF260017010FA600FDB505 /* Default.png */,
+				88FF260217010FA600FDB505 /* Default@2x.png */,
+				88FF260417010FA600FDB505 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88FF25EA17010FA600FDB505 /* Tappp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FF260817010FA600FDB505 /* Build configuration list for PBXNativeTarget "Tappp" */;
+			buildPhases = (
+				88FF25E717010FA600FDB505 /* Sources */,
+				88FF25E817010FA600FDB505 /* Frameworks */,
+				88FF25E917010FA600FDB505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tappp;
+			productName = Tappp;
+			productReference = 88FF25EB17010FA600FDB505 /* Tappp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88FF25E317010FA600FDB505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrews Apps";
+			};
+			buildConfigurationList = 88FF25E617010FA600FDB505 /* Build configuration list for PBXProject "Tappp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88FF25E217010FA600FDB505;
+			productRefGroup = 88FF25EC17010FA600FDB505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88FF25EA17010FA600FDB505 /* Tappp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88FF25E917010FA600FDB505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FF25F917010FA600FDB505 /* InfoPlist.strings in Resources */,
+				88FF260117010FA600FDB505 /* Default.png in Resources */,
+				88FF260317010FA600FDB505 /* Default@2x.png in Resources */,
+				88FF260517010FA600FDB505 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88FF25E717010FA600FDB505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FF25FB17010FA600FDB505 /* main.m in Sources */,
+				88FF25FF17010FA600FDB505 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88FF25F717010FA600FDB505 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88FF25F817010FA600FDB505 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88FF260617010FA600FDB505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88FF260717010FA600FDB505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88FF260917010FA600FDB505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tappp/Tappp-Prefix.pch";
+				INFOPLIST_FILE = "Tappp/Tappp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88FF260A17010FA600FDB505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tappp/Tappp-Prefix.pch";
+				INFOPLIST_FILE = "Tappp/Tappp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88FF25E617010FA600FDB505 /* Build configuration list for PBXProject "Tappp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FF260617010FA600FDB505 /* Debug */,
+				88FF260717010FA600FDB505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88FF260817010FA600FDB505 /* Build configuration list for PBXNativeTarget "Tappp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FF260917010FA600FDB505 /* Debug */,
+				88FF260A17010FA600FDB505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88FF25E317010FA600FDB505 /* Project object */;
+}
