@@ -16,6 +16,13 @@
 		88FF260117010FA600FDB505 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260017010FA600FDB505 /* Default.png */; };
 		88FF260317010FA600FDB505 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260217010FA600FDB505 /* Default@2x.png */; };
 		88FF260517010FA600FDB505 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260417010FA600FDB505 /* Default-568h@2x.png */; };
+		88FF260E1701107600FDB505 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FF260C1701107600FDB505 /* MainViewController.m */; };
+		88FF260F1701107600FDB505 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FF260D1701107600FDB505 /* MainViewController.xib */; };
+		88FF26161701186300FDB505 /* decrement.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF26111701186300FDB505 /* decrement.png */; };
+		88FF26171701186300FDB505 /* increment.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF26121701186300FDB505 /* increment.png */; };
+		88FF26181701186300FDB505 /* tap_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF26131701186300FDB505 /* tap_logo.png */; };
+		88FF26191701186300FDB505 /* tap_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF26141701186300FDB505 /* tap_logo@2x.png */; };
+		88FF261A1701186300FDB505 /* tapbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF26151701186300FDB505 /* tapbg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,14 @@
 		88FF260017010FA600FDB505 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		88FF260217010FA600FDB505 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		88FF260417010FA600FDB505 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88FF260B1701107600FDB505 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		88FF260C1701107600FDB505 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		88FF260D1701107600FDB505 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		88FF26111701186300FDB505 /* decrement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decrement.png; sourceTree = "<group>"; };
+		88FF26121701186300FDB505 /* increment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = increment.png; sourceTree = "<group>"; };
+		88FF26131701186300FDB505 /* tap_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap_logo.png; sourceTree = "<group>"; };
+		88FF26141701186300FDB505 /* tap_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tap_logo@2x.png"; sourceTree = "<group>"; };
+		88FF26151701186300FDB505 /* tapbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapbg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +93,13 @@
 		88FF25F417010FA600FDB505 /* Tappp */ = {
 			isa = PBXGroup;
 			children = (
+				88FF2610170115E300FDB505 /* Images */,
 				88FF25FD17010FA600FDB505 /* AppDelegate.h */,
 				88FF25FE17010FA600FDB505 /* AppDelegate.m */,
 				88FF25F517010FA600FDB505 /* Supporting Files */,
+				88FF260B1701107600FDB505 /* MainViewController.h */,
+				88FF260C1701107600FDB505 /* MainViewController.m */,
+				88FF260D1701107600FDB505 /* MainViewController.xib */,
 			);
 			path = Tappp;
 			sourceTree = "<group>";
@@ -97,6 +116,18 @@
 				88FF260417010FA600FDB505 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88FF2610170115E300FDB505 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88FF26111701186300FDB505 /* decrement.png */,
+				88FF26121701186300FDB505 /* increment.png */,
+				88FF26131701186300FDB505 /* tap_logo.png */,
+				88FF26141701186300FDB505 /* tap_logo@2x.png */,
+				88FF26151701186300FDB505 /* tapbg.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +185,12 @@
 				88FF260117010FA600FDB505 /* Default.png in Resources */,
 				88FF260317010FA600FDB505 /* Default@2x.png in Resources */,
 				88FF260517010FA600FDB505 /* Default-568h@2x.png in Resources */,
+				88FF260F1701107600FDB505 /* MainViewController.xib in Resources */,
+				88FF26161701186300FDB505 /* decrement.png in Resources */,
+				88FF26171701186300FDB505 /* increment.png in Resources */,
+				88FF26181701186300FDB505 /* tap_logo.png in Resources */,
+				88FF26191701186300FDB505 /* tap_logo@2x.png in Resources */,
+				88FF261A1701186300FDB505 /* tapbg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +203,7 @@
 			files = (
 				88FF25FB17010FA600FDB505 /* main.m in Sources */,
 				88FF25FF17010FA600FDB505 /* AppDelegate.m in Sources */,
+				88FF260E1701107600FDB505 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
