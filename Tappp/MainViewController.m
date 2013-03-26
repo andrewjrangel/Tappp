@@ -38,16 +38,16 @@ NSString *descriptionLow = @"You can't go below 0!";
 
 int count = 0;
 -(IBAction) bigButtonPress:(id)sender{
-    txtCount.text = [NSString stringWithFormat:@"%d", count];
    
     
-    if (count >9) {
+    if (count >=9) {
         UIAlertView *highAlert = [[UIAlertView alloc] initWithTitle:@"TARNATION!" message:@"You can't go above 9" delegate:nil cancelButtonTitle:@"All these rules!" otherButtonTitles:nil, nil];
         [highAlert show];
-        count = 9;
         txtCount.text = [NSString stringWithFormat:@"%d", count];
     }else{
         count = count +1;
+        txtCount.text = [NSString stringWithFormat:@"%d", count];
+
     }
     
 }
@@ -56,8 +56,12 @@ int count = 0;
     if (count <= 0) {
         UIAlertView *highAlert = [[UIAlertView alloc] initWithTitle:@"BEJABBERS!" message:@"You can't go below 0" delegate:nil cancelButtonTitle:@"Alright..." otherButtonTitles:nil, nil];
         [highAlert show];
+        txtCount.text = [NSString stringWithFormat:@"%d", count];
+
     } else {
         count = count - 1;
+        txtCount.text = [NSString stringWithFormat:@"%d", count];
+
     }
 }
 
