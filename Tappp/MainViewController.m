@@ -44,6 +44,8 @@ int count = 0;
     if (count >9) {
         UIAlertView *highAlert = [[UIAlertView alloc] initWithTitle:@"TARNATION!" message:@"You can't go above 9" delegate:nil cancelButtonTitle:@"All these rules!" otherButtonTitles:nil, nil];
         [highAlert show];
+        count = 9;
+        txtCount.text = [NSString stringWithFormat:@"%d", count];
     }else{
         count = count +1;
     }
